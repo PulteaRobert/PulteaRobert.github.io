@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="wrapper">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active">Navigation</a>
+  <div id="links">
+    <a href="index.html">Home</a>
+    <a href="degree.html">Degree</a>
+    <a href="pict.html">Pictorial Quiz</a>
+    <a href="canvas.html">JS Canvas</a>
+    <a href="contact.html">Contact</a>
+    <a href="acces.html">Accesibility</a>
+
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<script>
+function myFunction() {
+  if (document.getElementById("links").style.display === "block") {
+    document.getElementById("links").style.display = "none";
+  } else {
+    document.getElementById("links").style.display = "block";
+  }
+}
+</script>
+
+</body>
+</html>
